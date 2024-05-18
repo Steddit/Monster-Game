@@ -1,0 +1,106 @@
+body{
+    margin: 0 auto;
+    background-image: url(./Images/Monster-02.jpg);
+    /* object-fit: cover; */
+}
+#main{
+    width: 70%;
+    min-height: 400px;
+    text-align: center;
+    border: none;
+    border-radius: 2rem;
+    background: linear-gradient(135deg, #7BB0D8 0%,#F4005B 22%,#FFDADE 46%,#792533 74%,#3381A1 100%);
+    background-color: #3381A1;
+    margin: auto;
+    margin-top: 8%;
+    padding: 1rem;
+}
+#score{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 2rem;
+    flex-wrap: wrap;
+    /* border: solid #F4005B 2px; */
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+#score>p{
+    margin: 1rem;
+}
+#btns{
+    /* border: solid #3381A1 3px; */
+    /* margin: auto; */
+}
+.btn{
+    width: 22%;
+    height: 4.5rem;
+    margin-left: 1rem;
+    border: solid #E8E7FD 3px;
+    border-radius: 1.8rem;
+    font-size:1rem;
+    font-weight: bold;
+}
+#btn-1{
+    background-color: #FB8AB3;
+}
+#btn-2{
+    background-color: #827AB3;
+}
+#btn-3{
+    background-color: #F40400;
+}
+#btn-1:hover{
+    background-color: #E8E7FD;
+}
+#btn-2:hover{
+    background-color: #E8E7FD;
+}
+#btn-3:hover{
+    background-color: #E8E7FD;
+}
+#text-cont{
+    width: 80%;
+    height: 9rem;
+    margin: auto;
+    border: solid #F4005B 3px;
+    border-radius: 1.5rem;
+    margin-top: 1.2rem;
+    font-size:1rem;
+    font-weight: bold;
+    background-color: #E8E7FD;
+}
+#btns2{
+    visibility: hidden;
+}
+.btn2{
+    width: 22%;
+    height: 4.5rem;
+    margin-left: 1rem;
+    border: solid #E8E7FD 3px;
+    border-radius: 1.8rem;
+    font-size:1rem;
+    font-weight: bold;
+}
+#btn-1{
+    background-color: #FB8AB3;
+}
+#btn-2{
+    background-color: #827AB3;
+}
+#btn-3{
+    background-color: #F40400;
+}
+#btn-1:hover{
+    background-color: #E8E7FD;
+    border: solid #FB8AB3 3px;
+}
+#btn-2:hover{
+    background-color: #E8E7FD;
+    border: solid #827AB3 3px;
+}
+#btn-3:hover{
+    background-color: #E8E7FD;
+    border: solid #F40400 3px;
+}
