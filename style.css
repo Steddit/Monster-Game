@@ -1,7 +1,7 @@
 body{
     margin: 0 auto;
     background-image: url(./Images/Monster-02.jpg);
-    /* object-fit: cover; */
+    object-fit: cover;
 }
 #main{
     width: 70%;
@@ -29,10 +29,6 @@ body{
 #score>p{
     margin: 1rem;
 }
-#btns{
-    /* border: solid #3381A1 3px; */
-    /* margin: auto; */
-}
 .btn{
     width: 22%;
     height: 4.5rem;
@@ -53,12 +49,15 @@ body{
 }
 #btn-1:hover{
     background-color: #E8E7FD;
+    cursor: pointer;
 }
 #btn-2:hover{
     background-color: #E8E7FD;
+    cursor: pointer;
 }
 #btn-3:hover{
     background-color: #E8E7FD;
+    cursor: pointer;
 }
 #text-cont{
     width: 80%;
