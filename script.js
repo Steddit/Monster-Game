@@ -15,7 +15,7 @@ const goldText=document.querySelector("#gold");
 const heathText=document.getElementById("health");
 const monsterStats=document.querySelector("#monsterStats");
 const monsterNameText=document.querySelector("#monsterName");
-const nomsterHealthText=document.querySelector("#monsterHealth") ;
+const nonsterHealthText=document.querySelector("#monsterHealth") ;
 
 //initializing the buttons
 btnOne.onclick=goStore;
