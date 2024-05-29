@@ -71,35 +71,14 @@ body{
     background-color: #E8E7FD;
 }
 #btns2{
-    visibility: hidden;
+    display: none;
 }
 .btn2{
     width: 22%;
     height: 4.5rem;
     margin-left: 1rem;
-    border: solid #E8E7FD 3px;
+    border: solid #F4005B 3px;
     border-radius: 1.8rem;
     font-size:1rem;
     font-weight: bold;
-}
-#btn-1{
-    background-color: #FB8AB3;
-}
-#btn-2{
-    background-color: #827AB3;
-}
-#btn-3{
-    background-color: #F40400;
-}
-#btn-1:hover{
-    background-color: #E8E7FD;
-    border: solid #FB8AB3 3px;
-}
-#btn-2:hover{
-    background-color: #E8E7FD;
-    border: solid #827AB3 3px;
-}
-#btn-3:hover{
-    background-color: #E8E7FD;
-    border: solid #F40400 3px;
 }
